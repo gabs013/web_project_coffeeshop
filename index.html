@@ -20,36 +20,103 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital,wght@0,400;1,400&display=swap"
       rel="stylesheet"
     />
-    <title>Myrkur Kaffe</title>
+    <title>Café de Especialidad</title>
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <h1 class="noto-serif">Bienvenido a Myrkur Kaffe</h1>
-        <p class="noto-serif">
-          Un refugio donde la mitología nórdica se encuentra en cada taza y cada
-          bocado.
-        </p>
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Logotipo del café Triple Peaks"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a href="#recipes" class="nav__link">Recetas</a>
+            </li>
+            <li>
+              <a href="#booking" class="nav__link">Reservar una mesa</a>
+            </li>
+            <li><a href="#contacts" class="nav__link">Contactos</a></li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div class="header__text">
+            <h1 class="header__title">
+              <span class="span-accent noto-serif">Café de especialidad</span>
+              &nbsp; en Triple Peaks
+            </h1>
+            <p class="header__description noto-serif">
+              ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos
+              café para darte energía y motivar tu creatividad.
+            </p>
+          </div>
+
+          <div class="header__image-container">
+            <img
+              src="./images/inside_coffee_shop.png"
+              alt="Ilustración 'Dentro del café'"
+              class="header__image"
+            />
+          </div>
+        </div>
+        <!--Aquí estaba el <div class="footer__info">-->
       </header>
-      <main class="content">
-        <section class="recipes">
+      <div class="footer__info">
+        <div class="footer__info_hours">
           <p>
-            Adéntrate en un mundo de sagas ancestrales y sabores sublimes en
-            Myrkur Kaffe, un espacio donde la mitología nórdica y la naturaleza
-            escandinava se entrelazan para ofrecerte una experiencia mágica y
-            única. Nuestro café artesanal, cuidadosamente preparado con técnicas
-            tradicionales, honra el espíritu de los antiguos dioses, Valkirias y
-            guerreros nórdicos. Cada taza es un portal a los misterios de las
-            tierras del norte, una mezcla perfecta de calidad, autenticidad y un
-            toque de magia. Acompaña tu bebida con nuestros postres suecos,
-            elaborados con ingredientes naturales que reflejan la pureza y
-            riqueza de los bosques escandinavos. Desde panes especiados hasta
-            tartas de frutos del bosque, cada creación está inspirada en la
-            profunda conexión con la naturaleza que definió a las culturas del
-            norte. Ven a Myrkur kaffe y celebra la mitología, la tradición y el
-            sabor en un espacio diseñado para transportarte al corazón de las
-            sagas nórdicas.
+            Horario:<br />
+            Lunes a Viernes (de 10:00h a 19:00h)<br />
+            Sábados y Domingos (de 11:00h a 18:00h)
           </p>
+        </div>
+
+        <div class="footer__info_text">
+          <p>Avenida del Éxito 200, Ciudad Triple Peaks</p>
+        </div>
+      </div>
+
+      <main class="content">
+        <!--Recetas-->
+
+        <section class="recipes">
+          <div class="recipes-title">
+            <h2>Recetas</h2>
+          </div>
+          <div class="recipes-subtitle">
+            <p>
+              Echa un vistazo a las recetas que hemos reunido para que elabores
+              tus propios snacks.
+            </p>
+          </div>
+
+          <div class="recipes-videos">
+            <div class="recipes__videos-item">
+              <iframe
+                src="https://www.youtube.com/embed/nJtDuTSf_mU?si=ffnqv98yk20DgbH9"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-caption">
+                <p>Receta en cafetera italiana</p>
+              </div>
+            </div>
+            <div class="recipes__videos-item">
+              <iframe
+                src="https://www.youtube.com/embed/-Pn8Vb89abA?si=BxHAd-BdIb78ABlH"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-caption">
+                <p>Receta para preparar café filtrado - V60</p>
+              </div>
+            </div>
+          </div>
         </section>
         <section class="reservation"></section>
       </main>
