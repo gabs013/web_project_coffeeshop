@@ -36,13 +36,15 @@
               <a href="#recipes" class="nav__link">Recetas</a>
             </li>
             <li>
-              <a href="#booking" class="nav__link">Reservar una mesa</a>
+              <a href="#reservation" class="nav__link">Reservar una mesa</a>
             </li>
             <li><a href="#contacts" class="nav__link">Contactos</a></li>
           </ul>
         </nav>
+
         <div class="header__content">
           <div class="header__text">
+            <!--Aquí estaba el "header__title"-->
             <h1 class="header__title">
               <span class="span-accent noto-serif">Café de especialidad</span>
               &nbsp; en Triple Peaks
@@ -61,10 +63,18 @@
             />
           </div>
         </div>
-        <!--Aquí estaba el <div class="footer__info">-->
+
+        <!--Agragando los 4 elementos paragraph-->
+        <footer class="header__footer">
+          <p class="header__paragraph"></p>
+          <p class="header__paragraph"></p>
+          <p class="header__paragraph"></p>
+          <p class="header__paragraph"></p>
+        </footer>
       </header>
-      <div class="footer__info">
-        <div class="footer__info_hours">
+      <!--Aquí estaba el <div class="footer__info"-->
+      <div class="page-info">
+        <div class="page-info-hours">
           <p>
             Horario:<br />
             Lunes a Viernes (de 10:00h a 19:00h)<br />
@@ -72,7 +82,7 @@
           </p>
         </div>
 
-        <div class="footer__info_text">
+        <div class="page-info-text">
           <p>Avenida del Éxito 200, Ciudad Triple Peaks</p>
         </div>
       </div>
@@ -80,21 +90,23 @@
       <main class="content">
         <!--Recetas-->
 
-        <section class="recipes">
-          <div class="recipes-title">
+        <section id="recipes" class="recipes">
+          <div class="recipes__title">
             <h2>Recetas</h2>
           </div>
-          <div class="recipes-subtitle noto-serif">
+          <div class="recipes__subtitle noto-serif">
             <p>
               Echa un vistazo a las recetas que hemos reunido para que elabores
               tus propios snacks.
             </p>
           </div>
 
-          <div class="recipes-videos">
+          <div class="recipes__videos">
             <div class="recipes__videos-item">
               <iframe
+                class="recipes__iframe"
                 src="https://www.youtube.com/embed/nJtDuTSf_mU?si=ffnqv98yk20DgbH9"
+                alt="Video donde enseñan a preparar café en una cafetera italiana"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
@@ -106,7 +118,9 @@
             </div>
             <div class="recipes__videos-item">
               <iframe
+                class="recipes__iframe"
                 src="https://www.youtube.com/embed/-Pn8Vb89abA?si=BxHAd-BdIb78ABlH"
+                alt="Video donde enseñan a preparar café filtrado con el método V60"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
@@ -118,7 +132,7 @@
             </div>
           </div>
         </section>
-        <section class="reservation"></section>
+        <section id="reservation" class="reservation"></section>
       </main>
       <footer class="footer"></footer>
     </div>
