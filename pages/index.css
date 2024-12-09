@@ -1,3 +1,9 @@
+* {
+  margin: 0; /*chat*/
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
 }
@@ -20,7 +26,8 @@ body {
   font-family: "Noto Serif", "Times New Roman", serif;
 }
 
-.header {
+header {
+  /*background-color: blue;*/
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -29,8 +36,8 @@ body {
   max-height: 800px;
   padding: 30px 80px 40px;
   position: relative;
-  box-sizing: border-box;
-  /*justify-content: space-between; /*prueba*/
+  box-sizing: border-box; /*prueba*/
+  justify-content: space-between; /*prueba*/
 }
 
 .nav {
@@ -64,7 +71,7 @@ body {
   font-weight: 500;
 }
 
-.header__title {
+/*.header__title {
   font-size: 48px;
   font-weight: 500;
   font-size: 58px;
@@ -73,8 +80,41 @@ body {
   max-width: 709px;
   margin: 183px 0 28px 80px;
   /*white-space: pre-wrap;*/
-  /*margin: 80px 0 28px; /*prueba*/
-  /*padding-left: 80px;*/
+/*margin: 80px 0 28px; /*prueba*/
+/*padding-left: 80px;
+}
+
+.span-accent {
+  /*color: #4682b4;
+  color: #2f80ed;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+}*/
+
+.header__content {
+  /*Contiene el título, descripción y la imagen*/
+  position: relative; /*chat*/
+  /*background-color: pink;*/
+  display: flex;
+  flex-wrap: wrap; /*chat*/
+  justify-content: space-between; /*Prueba*/
+  align-items: center;
+  max-width: 1280px;
+  /*margin-top: 30px;*/
+  margin: 0 auto;
+}
+
+/*Se agrega aquí el título*/
+.header__title {
+  font-size: 48px;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  max-width: 709px;
+  margin: 183px 0 28px 80px;
 }
 
 .span-accent {
@@ -84,18 +124,6 @@ body {
   font-weight: normal;
   font-size: 58px;
   line-height: 72px;
-}
-
-.header__content {
-  /*Contiene la descripción y la imagen*/
-  /*position: relative; /*chat*/
-  /*background-color: pink;*/
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  /*align-items: center; */
-  max-width: 1280px;
-  /*margin: 0 auto;*/
 }
 
 .header__description {
@@ -110,20 +138,17 @@ body {
 
 .header__image-container {
   position: absolute;
-  top: 124px; /*224*/
+  margin-top: 124px; /*224*/
+  /*margin-right: 5px;*/
   right: 0;
   width: 646px;
   height: 568px;
-  /*margin: 124px 5px;*/
-  /*margin: 0;*/
-  max-width: 510px;
-  /*margin-top: 124px;*/
-  /*bottom: 300px;*/
-  display: flex;
-  /*margin-left: auto;*/
+  max-width: 500px;
+  display: flex; /*prueba*/
+  margin-left: auto; /*prueba*/
   align-items: flex-start;
   justify-content: flex-end;
-  /*z-index: 0; /*chat*/
+  padding: 5px;
 }
 
 .header__image {
