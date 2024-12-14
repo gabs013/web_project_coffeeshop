@@ -211,5 +211,136 @@ header {
   color: #ffffff;
 }
 
+/*formulario*/
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 80px; /*confirmar*/
+  text-align: center; /*confirmar*/
+}
+
+.reservation__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 44px; /*confirmar*/
+  line-height: 52px;
+  font-weight: 500; /*confirmar*/
+  margin-top: 100px;
+  margin-bottom: 80px; /*confirmar*/
+}
+
+/*estilo del formulario*/
+
+.reservation__form {
+  max-width: 385px; /* Se trasladó desde .form */
+  margin: 0 auto; /* Centra el formulario */
+}
+
+.form {
+  text-align: justify; /*Yo justifiqué las letras*/
+}
+
+/*Aquí debe ir el justificado del texto*/
+
+.form__fieldset {
+  margin-bottom: 32px; /*confirmar*/
+  border: none;
+}
+
+.form__fieldset > :last-child {
+  margin: 0;
+}
+
+.form__label {
+  display: block;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.form__input {
+  width: 100%;
+  height: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  padding: 15px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form__input:focus {
+  outline: none; /*confirmar todos los valores de aquí*/
+  border-color: #2f80ed;
+}
+
+.form__button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%; /* Igual ancho que las cajas de texto */
+  max-width: 385px;
+  height: 60px;
+  margin-top: 32px;
+  padding: 10px; /* Espaciado interno similar al de las cajas */
+  background-color: #007bff; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none; /* Sin bordes */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+.form__button:hover {
+  opacity: 0.7; /*confirmar*/
+}
+
+.form__fieldset-checkbox {
+  margin-right: 10px; /*confirmar todos los valores de aquí*/
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  flex-direction: column;
+  margin-top: 32px;
+  margin-bottom: 120px;
+}
+
+.form__label-checkbox {
+  display: flex; /* Activa Flexbox solo aquí */
+  align-items: center; /* Alinea verticalmente el texto y el checkbox */
+  gap: 12px; /* Espacio entre la casilla y el texto */
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.form__checkbox {
+  width: 20px; /* Ajusta el tamaño del checkbox */
+  height: 20px;
+  border: 2px solid #ccc; /* Borde gris estándar */
+  border-radius: 4px; /* Bordes redondeados */
+  appearance: none; /* Elimina los estilos predeterminados del navegador */
+  cursor: pointer;
+}
+
+.form__checkbox:checked {
+  background-color: #2f80ed;
+  background-image: url("../images/check.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  border: none;
+}
+
+/*footer*/
 .footer {
 }
