@@ -232,7 +232,7 @@ header {
   margin-top: 100px; /* O el valor exacto indicado en el brief */
   margin-left: auto; /* Centrado horizontal */
   margin-right: auto;
-  padding-bottom: 80px;
+  margin-bottom: 80px;
   text-align: center;
 }
 
