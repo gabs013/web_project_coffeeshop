@@ -10,7 +10,6 @@
     <meta name="author" content="Gabriela Arroyo" />
     <meta name="keywords" content="HTML, CSS" />
 
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <!--Fonts-->
@@ -194,7 +193,48 @@
         </section>
       </main>
 
-      <footer class="footer"></footer>
+      <footer id="contacts" class="footer">
+        <div class="footer__content">
+          <!--Círculo azul-->
+          <div class="footer__circle"></div>
+          <!--Logo-->
+          <div class="footer__logo">
+            <img
+              src="./images/logo_coffeeshop_light.svg"
+              alt="Logo de Triple Espresso"
+              class="footer_image"
+            />
+          </div>
+          <!--Redes sociales-->
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Redes sociales</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Logo de Facebook"
+                    class="footer__social-icon"
+                  />Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Logo de Instagram"
+                    class="footer__social-icon"
+                  />Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Derechos de autor-->
+        <div class="footer__copyright">
+          <p>© 2024 Gabriela Arroyo</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

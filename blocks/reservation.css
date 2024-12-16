@@ -1,0 +1,28 @@
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 80px; /*confirmar*/
+  text-align: center; /*confirmar*/
+}
+
+.reservation__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 44px; /*confirmar*/
+  line-height: 52px;
+  font-weight: 500; /*confirmar*/
+  /*margin: 100px 0 80px 0;*/
+  top: 100px; /* O el valor exacto indicado en el brief */
+  margin-left: auto; /* Centrado horizontal */
+  margin-right: auto;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.reservation__form {
+  max-width: 385px; /* Se trasladó desde .form */
+  margin: 0 auto; /* Centra el formulario */
+}
