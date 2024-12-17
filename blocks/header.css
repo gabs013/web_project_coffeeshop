@@ -21,7 +21,17 @@ header {
   margin: 183px 0 28px 80px;
 }
 
+.header__span-accent {
+  color: #2f80ed;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+}
+
 .header__description {
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
@@ -58,6 +68,12 @@ header {
   align-items: flex-end;
   margin-bottom: 40px;
   box-sizing: border-box;
+}
+
+.header__timetable {
+  text-align: left;
+  margin: 0;
+  margin-left: 80px;
 }
 
 .header_adress {
