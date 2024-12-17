@@ -4,7 +4,6 @@
   color: #ffffff;
   font-family: Arial, sans-serif;
   overflow: hidden;
-  /*box-sizing: border-box;*/
 }
 
 .footer__content {
@@ -23,7 +22,6 @@
   margin-bottom: 128px;
   margin-right: 44px;
   z-index: 0;
-  /*overflow: hidden;*/
 }
 
 .footer__logo {

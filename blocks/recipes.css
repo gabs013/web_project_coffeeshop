@@ -8,7 +8,8 @@
   /*text-align: center;*/
 }
 
-.recipes__title h2 {
+.recipes__title {
+  margin: 0;
   font-size: 44px;
   font-weight: 500;
   line-height: 52px;
@@ -21,7 +22,7 @@
   /*margin-right: auto;*/
 }
 
-.recipes__subtitle p {
+.recipes__subtitle {
   font-size: 20px;
   font-weight: normal;
   line-height: 30px;

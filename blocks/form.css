@@ -1,11 +1,9 @@
 .form {
-  text-align: justify; /*Yo justifiqué las letras*/
+  text-align: justify;
 }
 
-/*Aquí debe ir el justificado del texto*/
-
 .form__fieldset {
-  margin-bottom: 32px; /*confirmar*/
+  margin-bottom: 32px;
   border: none;
 }
 
@@ -37,7 +35,7 @@
 }
 
 .form__input:focus {
-  outline: none; /*confirmar todos los valores de aquí*/
+  outline: none;
   border-color: #2f80ed;
 }
 
@@ -47,24 +45,24 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  width: 100%; /* Igual ancho que las cajas de texto */
+  width: 100%;
   max-width: 385px;
   height: 60px;
   margin-top: 32px;
-  padding: 10px; /* Espaciado interno similar al de las cajas */
-  background-color: #007bff; /* Color de fondo */
-  color: white; /* Color del texto */
-  border: none; /* Sin bordes */
-  border-radius: 4px; /* Bordes redondeados */
-  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .form__button:hover {
-  opacity: 0.7; /*confirmar*/
+  opacity: 0.7;
 }
 
 .form__fieldset-checkbox {
-  margin-right: 10px; /*confirmar todos los valores de aquí*/
+  margin-right: 10px;
   width: 20px;
   height: 20px;
   border-radius: 2px;
@@ -75,19 +73,19 @@
 }
 
 .form__label-checkbox {
-  display: flex; /* Activa Flexbox solo aquí */
-  align-items: center; /* Alinea verticalmente el texto y el checkbox */
-  gap: 12px; /* Espacio entre la casilla y el texto */
+  display: flex;
+  align-items: center;
+  gap: 12px;
   cursor: pointer;
   white-space: nowrap;
 }
 
 .form__checkbox {
-  width: 20px; /* Ajusta el tamaño del checkbox */
+  width: 20px;
   height: 20px;
-  border: 2px solid #ccc; /* Borde gris estándar */
-  border-radius: 4px; /* Bordes redondeados */
-  appearance: none; /* Elimina los estilos predeterminados del navegador */
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  appearance: none;
   cursor: pointer;
 }
 
